@@ -8,7 +8,7 @@
 #'
 #' @returns The prepared DEM and slope raster layers as .tif files.
 #'
-#' @importFrom terra classify crop NAflag terrain vect writeRaster
+#' @importFrom terra classify crop NAflag NAflag<- terrain vect writeRaster
 #'
 #' @export
 #'
@@ -67,7 +67,7 @@ save_dem_slope_raster <- function(dem, data_path) {
 #'
 #' @returns The soil prepared soil raster layer as a .tif file.
 #'
-#' @importFrom terra classify crop NAflag project rast vect writeRaster
+#' @importFrom terra classify crop NAflag NAflag<- project rast vect writeRaster
 #'
 #' @export
 #'

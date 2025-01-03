@@ -35,6 +35,7 @@ calc_wd <- function(contr_area) {
 #' @param dem_res Spatial resolution of the DEM. Single numeric value of (x,y)
 #'   cell size in meters.
 #'
+#' @importFrom crayon green red
 #' @importFrom DBI dbConnect dbDisconnect dbReadTable
 #' @importFrom dplyr bind_rows filter group_by group_split left_join mutate
 #'   select summarize ungroup %>%

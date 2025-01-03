@@ -153,6 +153,7 @@ check_layer_attributes <- function(layer, type_to_lower) {
 #'
 #' @returns Shape file layers which indicate issues in case of identified issues.
 #'
+#' @importFrom crayon green red
 #' @importFrom dplyr select %>%
 #' @importFrom purrr map_lgl
 #' @importFrom sf read_sf st_area st_buffer st_cast st_covers st_equals
@@ -439,6 +440,7 @@ check_polygon_topology <- function(layer, data_path, label, n_feat = NULL,
 #'
 #' @returns Shape file layers which indicate issues in case of identified issues.
 #'
+#' @importFrom crayon green red
 #' @importFrom dplyr select %>%
 #' @importFrom purrr map_lgl
 #' @importFrom sf read_sf st_area  st_crosses st_length st_intersection

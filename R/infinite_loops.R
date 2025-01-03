@@ -14,6 +14,7 @@
 #' @param n_iter Number of iterations = length of the connections
 #'   which are analyzed.
 #'
+#' @importFrom crayon green red
 #' @importFrom DBI dbConnect dbDisconnect dbReadTable dbWriteTable
 #' @importFrom dplyr arrange bind_rows filter full_join group_by mutate select
 #'   starts_with summarize %>%

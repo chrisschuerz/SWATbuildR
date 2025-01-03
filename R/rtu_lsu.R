@@ -76,7 +76,7 @@ build_rout_input <- function(data_path) {
 #' @param data_path Path of the project data folder
 #'
 #' @importFrom DBI dbConnect dbDisconnect dbReadTable dbWriteTable
-#' @importFrom dplyr arrange bind_rows filter group_by left_join mutate rename
+#' @importFrom dplyr arrange bind_rows filter group_by left_join mutate n rename
 #'   select summarise ungroup %>%
 #' @importFrom RSQLite SQLite
 #' @importFrom sf read_sf st_drop_geometry

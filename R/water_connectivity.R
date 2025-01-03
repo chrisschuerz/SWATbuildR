@@ -15,6 +15,7 @@
 #' @returns Writes geopackage files into data/vector with layers which show
 #'   potential issues in the object connectivity.
 #'
+#' @importFrom crayon green red
 #' @importFrom dplyr %>%
 #' @importFrom sf st_buffer st_intersects write_sf
 #' @importFrom purrr map_lgl
@@ -345,7 +346,7 @@ prepare_water_links <- function(data_path) {
 #'
 #' @param con_tbl Connectivity link table
 #'
-#' @importFrom dplyr arrange everything group_by mutate select ungroup %>%
+#' @importFrom dplyr arrange everything group_by mutate n select ungroup %>%
 #'
 #' @keywords internal
 #'

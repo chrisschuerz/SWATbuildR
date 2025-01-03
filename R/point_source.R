@@ -266,7 +266,7 @@ add_missing_cols <- function(tbl, rec_col_names) {
 #'   data entry should be generated.
 #' @param rec_col_names Character vector with recall data column names
 #'
-#' @importFrom dplyr bind_rows mutate
+#' @importFrom dplyr bind_cols mutate
 #' @importFrom tibble as_tibble_row tibble
 #' @importFrom purrr map_df set_names
 #'

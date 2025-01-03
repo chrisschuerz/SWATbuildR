@@ -94,11 +94,12 @@ prepare_terrain_land <- function(data_path) {
 #' @returns Writes the land object connections into the table connect_ids in the
 #'   data base data/tables.sqlite
 #'
+#' @importFrom crayon green red
 #' @importFrom DBI dbConnect dbDisconnect dbReadTable dbWriteTable
 #' @importFrom dplyr bind_rows filter mutate select %>%
 #' @importFrom sf read_sf st_buffer write_sf
 #' @importFrom tibble tibble
-#' @importFrom terra cover crop rast rasterize values vect writeRaster
+#' @importFrom terra cover crop rast rasterize values values<- vect writeRaster
 #' @importFrom RSQLite SQLite
 #' @importFrom whitebox wbt_d8_pointer
 #'

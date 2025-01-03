@@ -1,7 +1,7 @@
 Package: SWATbuildR
 Type: Package
 Title: An object connectivity based SWAT+ model builder.
-Version: 1.0.0.9000
+Version: 1.0.0.9001
 Authors@R: person("Christoph", "Schuerz",
                 email = "c.schuerz@posteo.org",
                 role = c("aut", "cre"),
